@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Homework Organizer</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<center><h1>Homework Organizer</h1></center>
+</head>
+<body class="container">
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-start-date">Start Date</label>
+                        <input type="date" class="form-control" id="new-start-date">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-due-date">Due Date</label>
+                        <input type="date" class="form-control" id="new-due-date">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-assignment">Assignment</label>
+                        <input type="text" class="form-control" id="new-assignment" placeholder="title or description">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-week">Week</label>
+                        <input type="text" class="form-control" id="new-week">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="add" class="btn btn-primary from-control">Create</button>
+            </div>
+        </div>
+    </div>
+    <table id="list" class="table table-dark table-striped">
+        <tr>
+            <th>Assignment</th>
+            <th>Week</th>
+            <th>Start Date</th>
+            <th>Due Date</th>
+        </tr>
+    </table>
+
+
+    <script src="Week10.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
+
+
+
+
